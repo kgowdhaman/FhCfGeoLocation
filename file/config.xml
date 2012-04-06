@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="com.deloitte.aurs.show.map" version="1.0" width="320" height="480" start="index.html">
+<title>Show Map</title>
+<description>This app requests a set of placemarks from the server and displays them to the user on a map.</description>
+<author name="" email="" url=""></author>
+<license></license>
+</widget>
