@@ -9,13 +9,13 @@ var util = require('util');
  * Trivial example of pulling in a shared config file.
  */
 exports.getConfig = function(params, callback) {
-  //console.log("In getConfig() call");
+  console.log("In getConfig() call");
   var cfg = require("config.js");
   return callback(null, {config: cfg.config});
 };
 
 exports.getPlacemarks = function (params, callback) {
-  //console.log('in getPlacemarks');
+  console.log('in getPlacemarks');
   
   var lat = 'undefined' !== typeof params.lat ? params.lat : 12.95312,
       lon = 'undefined' !== typeof params.lon ? params.lon : 77.699239;
